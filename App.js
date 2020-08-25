@@ -7,7 +7,12 @@ function Header() {
 };
 
 function Footer() {
-
+    return (
+        <p className="attribution">
+            <img src="./img/GitHub-Mark-64px.png" width="64" height="64" />
+            Coded by <a href="https://github.com/carlospgraciano">Carlos Polanco</a>.
+        </p>
+    );
 };
 
 function handleTaskAddition(e, setTask) {
@@ -134,7 +139,7 @@ function App() {
         <div className="app">
             <Header />
             <ToDo />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };

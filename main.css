@@ -17,6 +17,16 @@ input::placeholder {
     color: #bdc3c7;
 }
 
+.attribution {
+  font-weight: 200;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  font-weight: 200;
+  color: #3e52a3;
+}
+
 #root {
     display: flex;
     justify-content: center;
