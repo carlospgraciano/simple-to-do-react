@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dfe6e9;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+input:focus, input:active {
+    outline: 0;
+}
+
+input::placeholder {
+    color: #bdc3c7;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.app .header {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    font-size: 30px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.app .to-do {
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.app .to-do .form {
+    flex-basis: 50%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 8px 20px;
+    margin: 5px 10px;
+    -webkit-box-shadow: 3px 6px 22px -10px #a3a5ae;
+    -moz-box-shadow: 3px 6px 22px -10px #a3a5ae;
+    box-shadow: 3px 6px 22px -10px #a3a5ae;
+}
+
+.app .to-do .item {
+    flex-basis: 50%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 8px 20px;
+    margin: 10px 10px;
+    -webkit-box-shadow: 3px 6px 22px -10px #a3a5ae;
+    -moz-box-shadow: 3px 6px 22px -10px #a3a5ae;
+    box-shadow: 3px 6px 22px -10px #a3a5ae;
+}
+
+.app .to-do .input {
+    flex-basis: 92%;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.app .to-do .item-input {
+    flex-basis: 83%;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.app .to-do .item-input.checked {
+    text-decoration: line-through;
+}
+
+.app .btn {
+    flex-basis: 8%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.app .btn:focus, .app .btn:active {
+    outline: 0;
+}
+
+.app .btn:hover {
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    background-color: transparent !important;
+    -webkit-box-shadow: 3px 6px 22px 0px rgba(163,165,174,1);
+    -moz-box-shadow: 3px 6px 22px 0px rgba(163,165,174,1);
+    box-shadow: 3px 6px 22px 0px rgba(163,165,174,1);
+}
+
+.app .btn:hover.checked {
+    cursor: initial;
+}
+
+.app .to-do .add-todo {
+    background-color: #5CA8E0;
+}
+
+.app .to-do .add-todo:hover {
+    color: #5CA8E0;
+}
+
+.app .to-do .item-remove-btn {
+    background-color: #e74c3c;
+    font-size: 1.6em;
+}
+
+.app .to-do .item-remove-btn.checked, .app .to-do .item-remove-btn.checked:hover {
+    background-color: #b2bec3;
+}
+
+.app .to-do .item-remove-btn:hover {
+    color: #e74c3c;
+}
+
+.app .to-do .item-done-btn {
+    background-color: #2ecc71;
+    font-size: 1.6em;
+    margin-right: 1%;
+}
+
+.app .to-do .item-done-btn.checked, .app .to-do .item-done-btn.checked:hover {
+    background-color: #b2bec3;
+}
+
+.app .to-do .item-done-btn:hover {
+    color: #2ecc71;
+}
