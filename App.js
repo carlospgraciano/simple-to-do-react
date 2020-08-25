@@ -9,7 +9,7 @@ function Header() {
 function Footer() {
     return (
         <p className="attribution">
-            <img src="./img/GitHub-Mark-64px.png" width="64" height="64" />
+            <img src="./img/GitHub-Mark-32px.png" width="32" height="32" />
             Coded by <a href="https://github.com/carlospgraciano">Carlos Polanco</a>.
         </p>
     );

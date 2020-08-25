@@ -18,13 +18,14 @@ input::placeholder {
 }
 
 .attribution {
-  font-weight: 200;
-  font-size: 11px;
-  text-align: center;
+    margin: 25px 0;
+    font-weight: 200;
+    font-size: 11px;
+    text-align: center;
 }
 .attribution a {
-  font-weight: 200;
-  color: #3e52a3;
+    font-weight: 200;
+    color: #3e52a3;
 }
 
 #root {
